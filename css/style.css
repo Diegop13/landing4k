@@ -13,18 +13,18 @@ body{
     z-index: 99;
 }
 .header-area.sticky .navbar-default{
-	background-color: #884bdf;
+	background-color: #000;
 }
 
 
 nav{
 	
-	height: 50px;
+	height: 100px;
 	text-align: center;
 }
 
 #acerca{
-	background-image: url(../../../landing4k/img/3.jpg);
+	background-image: url(../img/3.jpg);
 	background-size: cover;
     background-position: right ;
     background-attachment: fixed;
@@ -45,12 +45,22 @@ p{
 	border: rgba(255,255,255,1.00);
 }
 
+#presentacion a{
+	color:#fff;
+}
+
+#presentacion a:hover{
+	color: #C55600;
+}
 #servicios h1,h3{
 	text-align: center;
 	color: #fff;
 	
 }
-
+#logo{
+	background-color: #FFF;
+	height:100px;
+}
 #servicios{
 	padding: 20px 0px;
 	background-position: center;
@@ -91,8 +101,8 @@ p{
 } 
 
 #contacto{
-	padding: 0px 0px;
-	background-image:url(../img/Ritmo2.JPG);
+	padding-bottom: 50px;
+	background-image:url(../img/4.jpg);
 	background-position: center;
 	background-size: cover;
     background-attachment: fixed;
@@ -128,9 +138,6 @@ p{
 	color: #fff;
 }
 
-#send{
-	background-color: #E36200;
-}
 
 #footer{
 	text-align: center;	

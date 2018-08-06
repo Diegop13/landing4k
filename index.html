@@ -15,7 +15,7 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
 <link href="css/animate.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 	
-	<!--SEO-->
+		<!--SEO-->
 	
 	<meta name="Description" content="Este es la landing page de 4K Frames, en donde podrás encontrar información sobre nuestros servicios, portafolio y cómo contactarnos.">
 	<meta name="keywords" content="photography, produccion, audiovisual, fotografia, video, edicion de video">
@@ -38,16 +38,15 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand page-scroll" href="index.html"><img src="img/4kframes_logo.png"></a>
+				<a id="logo" class="navbar-brand page-scroll" href="#"><img src="img/4kframes_logo.png"></a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="nav">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#sec-intro">Inicio</a></li>
-					<li><a href="#sec-acerca">Acerca</a></li>
+					<li><a href="#acerca">Acerca</a></li>
 					<li><a href="#servicios">Servicios</a></li>
-					
+					<li><a href="#contacto">Contacto</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -91,7 +90,7 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
            		<div class="wow bounceInDown">
                 <h3>Photoshoots</h3>
                 <i class="fas fa-camera"></i>
-                <img src="img/3.jpg"  class="img-responsive center-block" alt="photoshoots">
+                <img src="img/3.jpg"  data-fancybox="group" class="img-responsive center-block" alt="photoshoots">
 				</div>
             </article>
             
@@ -99,7 +98,7 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
                <div class="wow bounceInDown">
                 <h3>Cinematografía</h3>
                 <i class="fas fa-video"></i>
-                	<img src="img/audiovisual-1024x682.jpg"  class="img-responsive center-block" alt="cinema">
+                	<img src="img/audiovisual-1024x682.jpg"  data-fancybox="group" class="img-responsive center-block" alt="cinema">
 				</div>
             </article>
 
@@ -107,7 +106,7 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
                <div class="wow bounceInDown">
                 <h3>Documentales</h3>
                 <i class="fas fa-book"></i>
-                	<img src="img/video-corporativo.jpg"  class="img-responsive center-block" alt="cinema">
+                	<img src="img/video-corporativo.jpg" data-fancybox="group" class="img-responsive center-block" alt="cinema">
 				</div>
             </article>
           </div>  
@@ -121,7 +120,7 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
     <div class="container">
         <div  class="row">
             <div id="contact-me" class="col-md-6 col-sm-6 col-xs-12">
-                <h1>Contact me</h1>
+                <h1>Contáctanos</h1>
             </div>
 		</div>
        
@@ -157,7 +156,7 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
 		
 			
 					<div id="submit" class="form-group">
-						<button id="send" type="submit" class="btn btn-primary">Enviar</button>
+						<button type="submit" class="btn btn-primary">Enviar</button>
 						<button type="reset" class="btn btn-default">Cancelar</button>
 					</div>
 					
@@ -201,5 +200,8 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
 		});
 	</script>
 </body>
+<footer id="footer">
+	<p>Copyright &copy; 4K Frames - All Rights Reserved 2018</p>
+</footer>
 
 </html>
