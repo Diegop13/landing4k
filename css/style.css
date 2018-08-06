@@ -89,11 +89,6 @@ p{
 	align-content: center;
 	align-items: center;
 } 
-#portafolio h1{
-	text-align: center;
-	padding: 30px ;
-	color: #fff;
-}
 
 #contacto{
 	padding: 0px 0px;
@@ -131,6 +126,10 @@ p{
 	align-content: center;
 	align-items: center;
 	color: #fff;
+}
+
+#send{
+	background-color: #E36200;
 }
 
 #footer{
